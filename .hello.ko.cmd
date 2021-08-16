@@ -1,0 +1,1 @@
+cmd_/home/syj/Desktop/modules/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/syj/Desktop/modules/hello.ko /home/syj/Desktop/modules/hello.o /home/syj/Desktop/modules/hello.mod.o ;  true
